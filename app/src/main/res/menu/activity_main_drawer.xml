@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_white_24dp"
+            android:title="My Profile" />
+        </group>.
+        <group>
+        <item
+            android:id="@+id/nav_parking"
+            android:icon="@drawable/ic_location_on_white_24dp"
+            android:title="Parking" />
+        <item
+            android:id="@+id/nav_addvehicle"
+            android:icon="@drawable/ic_add_circle_white_24dp"
+            android:title="Add vehicle" />
+        <item
+            android:id="@+id/nav_loyalitypoints"
+            android:icon="@drawable/ic_star_white_24dp"
+            android:title="My loyality points" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_white_24dp"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_phone_white_24dp"
+            android:title="Contact us" />
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="free.com.soffa_droid.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        tools:layout_editor_absoluteY="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.Toolbar
+
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@android:color/transparent"
+                android:minHeight="177dp"
+                app:logoDescription="   "
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/whitelogosmal" />
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <include
+        layout="@layout/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@+id/appBarLayout"
+        app:layout_anchorGravity="top|center" />
+
+</android.support.design.widget.CoordinatorLayout>
